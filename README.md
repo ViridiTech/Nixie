@@ -22,3 +22,21 @@ Seconds indicator is taken from probe screwdriver, typical neon indicator (gas-d
 Seconds indicator is driven by 5V relay (transistor-diode control to ensure no damage to microcontroler should be used, or alternatively for DIY solution Arduino relay module can be used).
 
 Nixie lamps require 170V power supply to be used, I chose [this one](https://pl.aliexpress.com/item/1005005721193065.html?src=google&pdp_npi=4%40dis!PLN!15.17!11.59!!!!!%40!12000034113964492!ppc!!!&src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=pl1005005721193065&ds_e_product_merchant_id=107726890&ds_e_product_country=PL&ds_e_product_language=pl&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=19735245762&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=CjwKCAiA5pq-BhBuEiwAvkzVZf3OkaujjkBrAG5RaLtoEE9kd9NwcMxYW9DeDCp0z5XIMhVfqe0_oxoCYh0QAvD_BwE).
+
+# IMPORTANT
+You have to program ESP32 yourself using Arduino IDE or other ESP-compatible environment using NIXIE_clock directory.
+
+In the code you MUST MODIFY WiFi settings to allow the clock to connect to the Internet.
+
+# DISCLAIMER
+The current code has not been tested on current version of hardware.
+
+
+
+
+
+
+
+
+
+
